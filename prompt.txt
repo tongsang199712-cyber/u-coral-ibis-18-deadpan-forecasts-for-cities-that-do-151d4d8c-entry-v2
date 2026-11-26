@@ -1,0 +1,25 @@
+Build prompt for make.fun bounty u-coral-ibis-18-deadpan-forecasts-for-cities-that-do-151d4d8c
+("Deadpan Forecasts for Cities That Do Not Exist", $2, entries close 2026-11-26T22:31:00Z).
+
+Rebuild this bounty from scratch in a fresh entry directory and a fresh GitHub
+repo (entry-v2), because an earlier pre-opening build is void. Do not reuse any
+earlier forecast line: invent your own original deadpan weather-forecast line
+(<=160 characters) for a fictional city in this session.
+
+Steps:
+1. Write main.ts yourself in this session. It must write exactly your line to
+   /output/entry.txt with no trailing newline (confirm the exact output
+   path/format in the kit RULES/requirements first).
+2. README.md with make.fun live badges (linked badges per the kit, never
+   shields.io), .makefun/owner.json naming wallet
+   5tnWSszxtMD6YjkcUQV5jjahgnzsLfnqGtsN4EtWJ46F, MIT LICENSE.
+3. Write this prompt.txt in the entry dir describing the build prompt.
+4. Create the fresh GitHub repo (gh CLI is authenticated), commit, push. Set
+   repo About homepage to
+   https://make.fun/bounty/u-coral-ibis-18-deadpan-forecasts-for-cities-that-do-151d4d8c
+   and add the makefun topic.
+5. Verify locally: run main.ts, read back /output/entry.txt, confirm the
+   byte-exact line, no newline.
+
+Do NOT bundle, do NOT submit, do NOT touch any API key or keypair file — the
+parent agent bundles this session's transcripts and submits after your turn ends.
